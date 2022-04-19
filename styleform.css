@@ -75,3 +75,8 @@ border: none;
 color: white;
 display: block;
 }
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
