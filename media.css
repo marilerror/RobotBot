@@ -1,0 +1,78 @@
+@media (max-width: 500px){
+    .menu { 
+    height: 100px;
+}
+.conteiner {
+    width: 80%;
+}
+.menu li{
+    display: block;
+}
+.header {
+    padding: 100px 20px;
+    height: 80vh;
+    background-position: center right;
+    color:  white;
+}
+h1 {
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.header h2 {
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.header a{
+    width: 52%;
+}
+.deskrip_item {
+    width: 49%;
+}
+.deskrip_item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.game h2 {
+    font-size: 20px;
+}
+.game h3 {
+    font-size: 18px;
+}
+.gamecardtext{
+    width: 100%;
+    display: block;
+}
+.gamecard p {
+    font-size: 16px;
+}
+.gamecardimage{
+    width: 100%;
+    display: block;
+}
+.mediaimg{
+    display: block;
+    width: 100%;    
+}
+.siteimg {
+    display: none;
+}
+.information h2 {
+    font-size: 20px;
+}
+.infodescr {
+    font-size: 16px;
+}
+.bluebox p {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.button {
+    font-size: 14px;
+    width: 100%;
+}
+/* доделпть остальное */
+}

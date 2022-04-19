@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styleform.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <form action="">
+        <div class="formhead">
+    <a href="index.html">
+        <i class='bx bxs-left-arrow'></i>
+    </a>
+    <p>Заяка на вступление</p>
+        </div>
+        <fieldset>
+            <legend>Ваш никнейм в реальной жизни :)</legend>
+            <input placeholder="Имя" type="text">
+            <input placeholder="Фамилия" type="text">
+        </fieldset>
+        <fieldset>
+            <legend>
+                Ваши параметры
+            </legend>
+            <p>ваш пол</p>
+            <input type="radio"name="pol" id="Man">
+            <label class="gender" for="Man">мужской</label>
+            <input type="radio"name="pol" id="woman">
+            <label class="gender" for="woman">женский</label>
+            <input type="radio"name="pol" id="Laminat">
+            <label class="gender" for="Laminat">ламинат</label>
+            <div class="hblock">
+                <input type="checkbox"name="age" id="Mni_ist'_ 18">
+                <label class="age" for="Mni_ist'_ 18">мне есть 18</label>
+            </div>
+            <p>Ваша дисциплина</p>
+            <select name="" id="">
+                <option value="">CS:GO</option>
+                <option value="">Fortnite</option>
+                <option value="">Roblox</option>
+                <option value="">Genshin Impact</option>
+                <option value="">Brawl Stars</option>
+                <option value="">Rocket League</option>
+                <option value="">Dota 2</option>
+                <option value="">Apex Legends</option>
+                <!-- Добавить новые опции (виды игры) -->
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Доп. информация</legend>
+            <textarea placeholder="Расскажите о себе" id="" cols="30" rows="10"></textarea>
+            <!-- Добавить элементы -->
+        </fieldset>
+        <button><a href="index.html">Отправьте заявку</a></button>
+    </form>
+</body>
+</html>
