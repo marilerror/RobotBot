@@ -74,5 +74,12 @@ h1 {
     font-size: 14px;
     width: 100%;
 }
+form{
+    width: 90%;
+}
+.gender {
+    width: 85%;
+    display: inline-block;
+}
 /* доделпть остальное */
 }
